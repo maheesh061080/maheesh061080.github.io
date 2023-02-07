@@ -1,5 +1,5 @@
-# maheesh061080.github.io
-<!DOCTYPE html>
+# Mahesh Pisari - Resume
+/*<!DOCTYPE html>*/
 <html>
   <head>
     <style>
@@ -27,19 +27,24 @@
         margin-bottom: 20px;
       }
 
-      .section ul {
-        list-style-type: none;
-        padding: 0;
+      .skills-table {
+        display: table;
+        width: 100%;
       }
 
-      .section li {
-        font-size: 18px;
-        margin-bottom: 10px;
+      .skills-row {
+        display: table-row;
       }
 
-      .section li::before {
-        content: "•";
-        margin-right: 10px;
+      .skills-cell {
+        display: table-cell;
+        width: 50%;
+        padding: 10px;
+        vertical-align: top;
+      }
+
+      .skills-header {
+        font-weight: bold;
         font-size: 20px;
       }
     </style>
@@ -105,9 +110,4 @@
     <!-- Skills section -->
     <section class="section">
       <h2 class="section-header">Skills</h2>
-      <ul>
-        <li>Skill 1</li>
-        <li>Skill 2</li>
-        <li>Skill 3</li>
-        <!-- Add additional skills as needed -->
-      </ul>
+      <div class="skills-table">
