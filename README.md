@@ -49,14 +49,6 @@
          margin-right: 10px;
          top: 30%
          }
-         .line {
-         height: 100%;
-         width: 2px;
-         background-color: black;
-         position: absolute;
-         left: 15%;
-         top: 0;
-         }
          .text {
          position: absolute;
          left: 20%;
@@ -69,59 +61,91 @@
          top: 67%;
          transform: translate(-50%, -50%);
          }
+         .highlighted-text {
+         background-color: yellow;
+         position: relative;
+         padding: 0 10px;
+         }
+         .highlighted-text:before {
+         content: "✔";
+         position: absolute;
+         left: 0;
+         top: 0;
+         bottom: 0;
+         margin: auto;
+         height: 15px;
+         width: 15px;
+         color: green;
+         font-size: 20px;
+         }
+         .tick {
+         position: relative;
+         padding: 2 2px;
+         }
+         .tick:before {
+         content: "✔";
+         position: absolute;
+         left: 0;
+         top: 0;
+         bottom: 0;
+         margin: auto;
+         height: 15px;
+         width: 15px;
+         color: blue;
+         font-size: 20px;
+         }
       </style>
    </head>
    <body>
-      <!-- Image section -->
-      <section class="image">
-      <img src="https://raw.githubusercontent.com/maheesh061080/maheesh061080.github.io/main/1.jpg" alt="Image description">
-      <div class="line"></div>
       <!-- Header with name and contact information -->
       <header>
-         <h1>Mahesh Pisari</h1>
-         <p><b>City</b> - Bangalore</p>
-         <p><b>Phone:</b> +91 96111 44761</p>
+         <h1>
+            <div class="highlighted-text" class="highlighted-text:before">Mahesh Pisari</div>
+         </h1>
+         <p>
+            <b>
+         <div class="highlighted-text" class="highlighted-text:before">City</div></b> - Bangalore</p>
+         <p>
+            <b>
+         <div class="tick" class="tick:before">Phone:</b> +91 96111 44761</p>
          <p><b>Email:</b> pisari.mahesh@email.com</p>
       </header>
       <!-- Summary section -->
       <section class="section">
-         <h2 class="section-header">
-            <div class="text">
-               <u>Expertise</u>
-         </h2>
-         <p>
-         <ul>
-         <li>
-         16 years of robust industry experience in building products.
-         </div>
-         </li>
-         <li>
-         Solutioning to marketers for a full stack marketing automation suite.
-         </li>
-         <li>
-         Building virtual environments and container orchestration using docker and utilities. On demand Spawning containers with docker, docker swarm, slat stack.
-         </li>
-         <li>
-         Build CI/CD environments with selenium grid, Jenkins, gitbucket and automated test suite.
-         </li>
-         <li>
-         Technical coordination with QA and development teams and transforming thebusiness requirements into solution modules.
-         </li>
-         <li>
-         Setup and mentor team(s) who can delivery world class products.
-         </li>
-         <li>
-         Results-oriented product specialist and data analyst, architect solutions on big data and IoT and M2M products.
-         </li>
-         <li>
-         Extensive experience in Linux, SDLC, resources optimisation / utilisation, automation, SRS, HLD / LLD, planning resource and cost.
-         </li>
-         <li>
-         Working in Agile and Scrum methodologies and principals.
-         </li>
-         </div>
-         </ul>
-         </p>
+      <h2 class="section-header"><div class="text"><u>Expertise</u></h2>
+      <p>
+      <ul>
+      <li>
+      16 years of robust industry experience in building products.
+      </div>
+      </li>
+      <li>
+      Solutioning to marketers for a full stack marketing automation suite.
+      </li>
+      <li>
+      Building virtual environments and container orchestration using docker and utilities. On demand Spawning containers with docker, docker swarm, slat stack.
+      </li>
+      <li>
+      Build CI/CD environments with selenium grid, Jenkins, gitbucket and automated test suite.
+      </li>
+      <li>
+      Technical coordination with QA and development teams and transforming thebusiness requirements into solution modules.
+      </li>
+      <li>
+      Setup and mentor team(s) who can delivery world class products.
+      </li>
+      <li>
+      Results-oriented product specialist and data analyst, architect solutions on big data and IoT and M2M products.
+      </li>
+      <li>
+      Extensive experience in Linux, SDLC, resources optimisation / utilisation, automation, SRS, HLD / LLD, planning resource and cost.
+      </li>
+      <li>
+      Working in Agile and Scrum methodologies and principals.
+      </li>
+      </div>
+      </ul>
+      </p>
       </section>
       <!-- Summary section -->
       <section class="section">
