@@ -1,4 +1,3 @@
-# Mahesh Pisari - Resume
 <html>
    <head>
       <style>
@@ -135,51 +134,29 @@
             <li>
                Lead QA and Linux Admin (Netcore Solutions) (July 2007 – March 2010)
             </li>
+            </ul>
             </p>
             <p>
+            <ul>
             <li>
                Worked at <b>SEraja technologies pvt. Ltd</b> from Oct 2005 to June 2007 as Network engineer and content aggregator.
             </li>
          </ul>
          </p>
-      </section>
-      <!-- Work Experience section -->
-      <section class="section">
-         <h2 class="section-header"><u>Work Experience</u></h2>
-         <ul>
-            <li>
-               <p>
-                  <strong>Job Title, Company Name</strong>
-                  <br />
-                  Date range
-               </p>
-               <ul>
-                  <li>
-                     Description of your role and responsibilities at the job
-                  </li>
-                  <li>
-                     Key achievements at the job
-                  </li>
-               </ul>
-            </li>
-            <!-- Add additional work experience entries as needed -->
-         </ul>
-      </section>
       <!-- Education section -->
       <section class="section">
          <h2 class="section-header">Education</h2>
          <ul>
             <li>
                <p>
-                  <strong>Degree, Institution Name</strong>
+                  <strong>Bachelor of Engineering with major in Electronics and Communication</strong>
                   <br />
-                  Date range
+                  1999 - 2003
                </p>
                <p>
-                  Description of your education and any relevant coursework
+                  Diploma in Embedded Systems - VLSI, Assembly Programming.
                </p>
             </li>
-            <!-- Add additional education entries as needed -->
          </ul>
       </section>
       <!-- Skills section -->
