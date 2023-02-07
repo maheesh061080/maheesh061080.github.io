@@ -1,5 +1,5 @@
 # Mahesh Pisari - Resume
-/*<!DOCTYPE html>*/
+
 <html>
   <head>
     <style>
@@ -52,17 +52,17 @@
   <body>
     <!-- Header with name and contact information -->
     <header>
-      <h1>Your Name</h1>
-      <p>Address</p>
-      <p>Phone: 123-456-7890</p>
-      <p>Email: yourname@email.com</p>
+      <h1>Mahesh Pisari</h1>
+      <p>City - Bangalore</p>
+      <p>Phone: +91-96111 44761</p>
+      <p>Email: pisari.mahesh@email.com</p>
     </header>
 
     <!-- Summary section -->
     <section class="section">
       <h2 class="section-header">Summary</h2>
       <p>
-        A brief summary of your background and experience, highlighting your relevant skills and accomplishments.
+        17+ years of experience in the IT industry..............
       </p>
     </section>
 
@@ -72,7 +72,7 @@
       <ul>
         <li>
           <p>
-            <strong>Job Title, Company Name</strong>
+            <strong>AVP - BA, Netcore Cloud Pvt Ltd</strong>
             <br />
             Date range
           </p>
