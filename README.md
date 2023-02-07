@@ -58,6 +58,9 @@
          <p><b>Phone:</b> +91 96111 44761</p>
          <p><b>Email:</b> pisari.mahesh@email.com</p>
       </header>
+      <!-- Image section -->
+      <section class="image">
+         <img src="https://raw.githubusercontent.com/maheesh061080/maheesh061080.github.io/main/1.jpg" alt="Image description">
       <!-- Summary section -->
       <section class="section">
          <h2 class="section-header"><u>Expertise</u></h2>
